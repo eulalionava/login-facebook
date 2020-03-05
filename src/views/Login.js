@@ -56,7 +56,7 @@ class Login extends Component{
                             </div>
                             <div className="card-body">
                                 <FacebookLogin
-                                appId="279869553004751"
+                                appId=""
                                 autoLoad={false}
                                 fields="name,email,picture.width(120)"
                                 callback={this.responseFacebook}
